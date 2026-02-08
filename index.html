@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Chocolate Day 🍫</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="question">
+    <h1>Chocolate Day Mission 🍫</h1>
+    <p>What’s sweeter?</p>
+    <button onclick="nextStep()">You 😌</button>
+    <button onclick="nextStep()">Chocolate 🍫</button>
+  </div>
+
+  <div id="game" class="hidden">
+    <h2>Choose a chocolate wisely…</h2>
+    <div class="chocolates">
+      <div onclick="wrong()">🍫</div>
+      <div onclick="right()">🍫</div>
+      <div onclick="wrong()">🍫</div>
+    </div>
+  </div>
+
+  <div id="result" class="hidden"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
